@@ -6,15 +6,16 @@ import java.io.Serializable;
 import java.util.UUID;
 
 @Entity
-@Table(name = "TB_PUBLISHER")
-public class PublisherModel implements Serializable {
+@Table(name = "TB_REVIEW")
+public class ReviewModel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
     @Column(nullable = false, unique = true)
-    private String name;
+    private String comment;
+
 
     public UUID getId() {
         return id;
@@ -24,11 +25,11 @@ public class PublisherModel implements Serializable {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getComment() {
+        return comment;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 }

@@ -6,8 +6,8 @@ import java.io.Serializable;
 import java.util.UUID;
 
 @Entity
-@Table(name = "TB_PUBLISHER")
-public class PublisherModel implements Serializable {
+@Table(name = "TB_AUTHOR")
+public class AuthorModel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
