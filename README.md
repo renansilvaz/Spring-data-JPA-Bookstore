@@ -53,9 +53,9 @@ Cada entidade possui atributos básicos e está relacionada a outras de acordo c
 |-------------------|------------------------|-----------------------|
 | Book → Author     | Muitos para Um         | `@ManyToOne`          |
 | Book → Publisher  | Muitos para Um         | `@ManyToOne`          |
-| Book → Summary    | Um para Um             | `@OneToOne`           |
-| Author → Book     | Um para Muitos         | `@OneToMany`          |
-| Book ↔ Category   | Muitos para Muitos     | `@ManyToMany` (caso implementado) |
+| Book → Review     | Um para Um             | `@OneToOne`           |
+| Author → Book     | Muitos para Muitos     | `@ManyToMany`         |
+| Publisher → Book  | Um para Muitos         | `@OneToMany`          |  
 
 ---
 
