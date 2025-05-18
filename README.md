@@ -41,7 +41,7 @@ O principal objetivo desse projeto foi estudar a criação de entidades e o mape
 - **Book (Livro)**
 - **Author (Autor)**
 - **Publisher (Publicadora)**
-- **BookSummary (Resumo do livro)**
+- **Review (Resumo do livro)**
 
 Cada entidade possui atributos básicos e está relacionada a outras de acordo com a estrutura de uma livraria real.
 
