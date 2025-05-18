@@ -12,13 +12,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/bookstore/author")
-public class AuthorController {
-
-    public class authorController{
+    public class AuthorController {
 
         private final AuthorService authorService;
 
-        public authorController(AuthorService authorService) {
+        public AuthorController(AuthorService authorService) {
             this.authorService = authorService;
         }
 
@@ -27,4 +25,5 @@ public class AuthorController {
             return ResponseEntity.status(HttpStatus.CREATED).body(authorService.saveAuthor(authorRecordDto));
         }
     }
-}
+
+
