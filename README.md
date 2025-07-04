@@ -58,9 +58,3 @@ Cada entidade possui atributos básicos e está relacionada a outras de acordo c
 | Publisher → Book  | Um para Muitos         | `@OneToMany`          |  
 
 ---
-
-## 📦 Como rodar o projeto
-
-1. Clone o repositório:
-git clone https://github.com/seu-usuario/nome-do-repo.git
-cd nome-do-repo
